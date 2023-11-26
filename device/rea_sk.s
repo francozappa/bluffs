@@ -6,7 +6,7 @@ add r1, sp, #0x8
 push {{r0, r2}}
 
 @Prepare addr to store SK
-ldr r0, =#0x2007c0
+ldr r0, =#0x20077C
 ldr r2, [r1]
 str r2, [r0]
 ldr r2, [r1, #0x4]
