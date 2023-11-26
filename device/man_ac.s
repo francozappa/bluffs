@@ -1,4 +1,4 @@
-@LSC AC to zero
+@LSC AC (AU_RAND) to zero
 and r0, r0, #0x0
 str.w r0, [r4, #0x78]
 str.w r0, [r4, #0x7C]
