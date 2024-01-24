@@ -9,7 +9,6 @@ import struct
 
 from pwn import *
 from internalblue.hcicore import HCICore
-from constants import *
 
 
 def patch(name, trigger_addr, code_bstr, patch_addr):
